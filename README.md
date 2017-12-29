@@ -34,7 +34,7 @@ Instead of using traditional username & password, Maggie selects key-authenticat
 4.	Server verifies challenge message, login sucessfully
 
 ## Build the project & test the login API with curl command
-This module can easily be built by gradle or maven, and will start an tomcat server with port 8443 open to establish **HTTPS** connections.
+This is a spring-boot project with gradle as its build tool, so it can easily be built by gradle or maven, and will start an tomcat server with port 8443 open to establish **HTTPS** connections.
 <br/><br/>
 The login APIs are all encapsulated as **POST** request, so that we can use commands such as *curl* or *wget* to test the module.
 <br/><br/>
